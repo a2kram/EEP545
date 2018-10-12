@@ -1,0 +1,5 @@
+<launch>
+  <param name="follow_offset" value="1.5" />
+  <param name="force_in_bounds" value="True" />
+  <node pkg="lab0" type="CloneFollower.py" name="Lab0_CloneFollower" required="true" />
+</launch>
